@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load the saved model
+
 model = joblib.load("iris_knn_model.pkl")
 
 st.title("🌸 Iris Flower Classifier ")
